@@ -53,7 +53,7 @@
 
 <script type="text/javascript">
   function redirect() {
-    let d = "zeroazen.com.br";
+    let d = "metodoresettotal.com.br";
     let slg = "wd";
 
     var url_string = window.location.href;
@@ -63,7 +63,7 @@
     var utm_content = new URL(document.location).searchParams.get("utm_content");
     var utm_medium = new URL(document.location).searchParams.get("utm_medium");
 
-    fbq('track', 'ViewContent');
+    // fbq('track', 'ViewContent');
     window.location = "https://"+d+"/"+slg+"/?utm_source="+utm_source+"&utm_campaign="+utm_campaign+"&utm_medium="+utm_medium+"&utm_content="+utm_content;
 
   }
